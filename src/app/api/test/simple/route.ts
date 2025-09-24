@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+export const runtime = 'edge';
 import { NextResponse } from 'next/server';
 
 export const runtime = 'edge';
@@ -20,3 +21,4 @@ export async function GET() {
     }, { status: 500 });
   }
 }
+
